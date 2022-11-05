@@ -7,7 +7,7 @@
 """ Las operaciones son conocidas como comandos y cada operación es implementada como una clase independiente 
 que realiza una acción muy concreta, para lo cual, puede o no recibir parámetros para realizar su tarea. """
 
-#Example
+Example
                 from __future__ import annotations
                 from abc import ABC, abstractmethod
                 class Command(ABC):
