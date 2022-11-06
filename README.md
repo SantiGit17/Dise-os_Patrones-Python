@@ -1,7 +1,7 @@
 # Dise-os_Patrones-Python
 David Sanchez - 2502640 Python
 
--- COMMAND --
+# -- COMMAND --
 
 #Definition
 """ Las operaciones son conocidas como comandos y cada operación es implementada como una clase independiente que realiza una acción muy concreta, para lo cual, puede o no recibir parámetros para realizar su tarea. """
@@ -57,7 +57,7 @@ David Sanchez - 2502640 Python
         invoker.do_something_important()
 
 
--- DAO --
+# -- DAO --
 #Definition
 """ Data Access Object (DAO), el cual permite separar la lógica de acceso a datos de los Objetos de negocios (Bussines Objects), de tal forma que el DAO encapsula toda la lógica de acceso de datos al resto de la aplicación. """
 
@@ -106,7 +106,7 @@ David Sanchez - 2502640 Python
         return jsonify(**utils.to_dict(anime))
 
 
--- DECORATOR --
+# -- DECORATOR --
 
 #Definition
 """ Diseñado para solucionar problemas donde la jerarquía con subclasificación no puede ser aplicada. Decorator permite al usuario añadir nuevas funcionalidades a un objeto existente sin alterar su estructura, mediante la adición de nuevas clases que envuelven a la anterior dándole funcionamiento extra."""
@@ -146,7 +146,7 @@ David Sanchez - 2502640 Python
         client_code(decorator2)
 
 
--- DEPENDENCY INJECTION --
+# -- DEPENDENCY INJECTION --
 
 #Definition
 """  La inyección de dependencia es un técnica de desarrollo que nos permite escribir código con un alto nivel de cohesión y un bajo nivel de dependencia; dependencia es todo lo que una clase necesite para poder funcionar. Uno de los patrones de desarrollo que sin duda debemos tener en consideración al momento de desarrollar nuestros proyectos; pudiendo desacoplar los componentes de nuestra aplicación de una forma muy sencilla """
